@@ -80,6 +80,10 @@ header .bnt-contato button:hover{
 }
 
 /*ESTILO DO MENU MOBILE*/
+.especialidades-box{
+    list-style-type: none;
+}
+
 .btn-abrir-menu i{
     color: brown;
     font-size: 40px;
