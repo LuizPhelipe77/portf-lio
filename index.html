@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio</title>
+    
     <!--GOOGLE FONTES-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,6 +13,10 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
     <!--ICONES FIM-->
     <link rel="stylesheet" href="main.css">
+
+    <script src="main.js" defer></script>
+
+    <title>Portfólio</title>
 </head>
 <body>
     <header>
@@ -36,11 +40,27 @@
                 </a>
             </div><!--bnt-contato-->
 
-            <div class="menu-mobile">
-                <div class="btn-fechar">
-                    
-                </div>
+            <div class="btn-abrir-menu" id="abrir">
+                <i class="bi bi-list"></i>
             </div>
+
+            <div class="menu-mobile" id="menu-mobile">
+                <div class="btn-fechar">
+                    <i class="bi bi-x-lg"></i>
+                </div>
+
+                <nav>
+                    <ul>
+                        <li> <a href="#">Inicio</a></li>
+                        <li> <a href="#">Especialidades</a></li>
+                        <li> <a href="#">Sobre</a></li>
+                        <li> <a href="#">Projetos</a></li>
+                        <li> <a href="#">Contato</a></li>
+                    </ul>
+                </nav>
+
+            </div><!--menu-mobile-->
+            <div class="overlay-menu" id="overlay-menu"></div>
         </div><!--interFace-->
     </header>
     
