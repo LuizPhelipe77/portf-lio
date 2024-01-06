@@ -47,7 +47,7 @@ revelar.reveal('.efeito-img-sobre', {
 revelar.reveal('.efeito-txt-sobre', {
     duration: 2000,
     distance: '90px',
-    delay:1000,
+    delay:700,
     origin:'right'
 })
 
@@ -55,20 +55,20 @@ revelar.reveal('.efeito-txt-sobre', {
 revelar.reveal('.efeito-port1', {
     duration: 2000,
     distance: '90px',
-    delay:1000,
+    delay:500,
     origin:'top'
 })
 
 revelar.reveal('.efeito-port2', {
     duration: 2000,
     distance: '90px',
-    delay:1000,
+    delay:500,
     origin:'bottom'
 })
 
 revelar.reveal('.efeito-port3', {
     duration: 2000,
     distance: '90px',
-    delay:1000,
+    delay:500,
     origin:'top'
 })
