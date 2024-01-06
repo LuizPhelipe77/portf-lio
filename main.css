@@ -44,6 +44,11 @@ header > .interFace{
     justify-content: space-between;
 }
 
+header .interFace .logo img{
+    width: 180px;
+    height: 150px;
+}
+
 header  a{
     color: rgba(116, 114, 114, 0.989);
     text-decoration: none;
@@ -150,6 +155,10 @@ main .topo-do-site{
     padding: 100px 4%;
 }
 
+.efeito-txt-topo, .efeito-img-topo, .titulo, .efeito-esp1, .efeito-esp2, .efeito-img-sobre, .efeito-txt-sobre, .efeito-port1, .efeito-port2, .efeito-port3{
+    visibility: hidden;
+}
+
 section.topo-do-site.flex{
     align-items: center;
     justify-content: center;
@@ -187,8 +196,8 @@ section.topo-do-site.flex{
 }
 
 .topo-do-site .img-topo-site img{
-    height: 450px;
-    width: 350px;
+    height: 200px;
+    width: 250px;
     border-radius: 50px;
     position: relative;
     animation: flutuar 2s ease-in-out infinite alternate;
@@ -343,6 +352,10 @@ footer{
 
 footer .flex{
     justify-content: space-between;
+}
+footer .interFace .line-footer .flex .logo-footer img{
+    width:110px;
+    height: 80px;
 }
 
 footer .line-footer{
