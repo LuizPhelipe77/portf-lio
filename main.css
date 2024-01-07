@@ -383,8 +383,7 @@ footer .line-footer p a{
 
     /*CABECALHO*/
     .menu-desktop, .bnt-contato{
-        display: none;
-
+        display:none;
     }
 }
 
