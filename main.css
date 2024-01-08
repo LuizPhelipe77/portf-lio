@@ -395,7 +395,6 @@ footer .line-footer p a{
 /*TOPO DO SITE*/
 section.topo-do-site.flex{
     gap: 40px;
-    align-items: center;
 }
 
 main .topo-do-site{
@@ -404,6 +403,10 @@ main .topo-do-site{
 
 .topo-do-site h1{
     font-size: 30px;
+}
+
+section .topo-do-site .especialidades{
+    max-width: 1180px;
 }
 
 .topo-do-site .img-topo-site img{
