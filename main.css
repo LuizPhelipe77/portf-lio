@@ -395,11 +395,11 @@ footer .line-footer p a{
 /*TOPO DO SITE*/
 section.topo-do-site.flex{
     gap: 40px;
+    align-items: center;
 }
 
 main .topo-do-site{
     padding: 20px 5%;
-    overflow: hidden;
 }
 
 .topo-do-site h1{
@@ -410,7 +410,7 @@ main .topo-do-site{
     width: 100%;
     align-items: center;
 }
- 
+
 /*SOBRE*/
 .img-sobre img{
     width: 100%;
