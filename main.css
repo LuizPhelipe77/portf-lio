@@ -85,7 +85,7 @@ header .bnt-contato button:hover{
 }
 
 /*ESTILO DO MENU MOBILE*/
-.especialidades-box{
+/*.especialidades-box{
     list-style-type: none;
 }
 
@@ -386,7 +386,7 @@ footer .line-footer p a{
     }
 
     /*CABECALHO*/
-    .menu-desktop, .bnt-contato{
+    .menu-desktop {
         display:none;
     }
 }
