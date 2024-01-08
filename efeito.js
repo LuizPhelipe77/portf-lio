@@ -41,14 +41,14 @@ revelar.reveal('.efeito-img-sobre', {
     duration: 2000,
     distance: '90px',
     delay:500,
-    origin:'left'
+    origin:'top'      /*left*/ 
 })
 
 revelar.reveal('.efeito-txt-sobre', {
     duration: 2000,
     distance: '90px',
     delay:700,
-    origin:'right'
+    origin:'top'    /*right*/ 
 })
 
 //portfolio

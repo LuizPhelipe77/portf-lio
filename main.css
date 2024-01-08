@@ -389,6 +389,10 @@ footer .line-footer p a{
         flex-direction: column-reverse;
     }
 
+    .sobre .flex{
+        flex-direction: column-reverse;
+    }
+
     /*CABECALHO*/
     .menu-desktop {
         display:none;
