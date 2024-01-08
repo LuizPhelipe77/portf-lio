@@ -399,6 +399,7 @@ section.topo-do-site.flex{
 
 main .topo-do-site{
     padding: 20px 5%;
+    overflow: hidden;
 }
 
 .topo-do-site h1{
