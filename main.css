@@ -44,11 +44,6 @@ header > .interFace{
     justify-content: space-between;
 }
 
-header .interFace .logo img{
-    width: 180px;
-    height: 150px
-}
-
 header  a{
     color: rgba(116, 114, 114, 0.989);
     text-decoration: none;
@@ -200,7 +195,7 @@ section.topo-do-site.flex{
 .topo-do-site .img-topo-site img{
     height: 200px;
     width: 250px;
-    margin: 25px;
+    margin: 25px 0px 55px 0px;
     border-radius: 50px;
     position: relative;
     animation: flutuar 2s ease-in-out infinite alternate;
@@ -208,7 +203,7 @@ section.topo-do-site.flex{
 
 
 
-/*@keyframes flutuar{
+@keyframes flutuar{
     0%{
         top: 0px;
     }
@@ -236,7 +231,7 @@ section.especialidades .flex{
 }
 
 /*.especialidades .especialidades-box:hover{
-    transform: scale(1.05);
+    transform: scale(1.05);                                         /*efeito do mause
     box-shadow: 0 0 20px rgba(255, 255, 255, 0.401);
 }*/
 
