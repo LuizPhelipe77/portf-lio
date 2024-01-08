@@ -194,8 +194,7 @@ section.topo-do-site.flex{
     color: white;
     font-size: 1rem;
     margin: 5px 0;
-    line-height: 0.88rem;
-    
+    line-height: 0.9rem;
 }
 
 .topo-do-site .img-topo-site img{
@@ -209,7 +208,7 @@ section.topo-do-site.flex{
 
 
 
-@keyframes flutuar{
+/*@keyframes flutuar{
     0%{
         top: 0px;
     }
@@ -220,7 +219,7 @@ section.topo-do-site.flex{
 
 /* ESTILO DAS ESPECIALIDADES*/
 section.especialidades{
-    padding: 40px 3%;
+    padding: 80px 3%;
 }
 
 section.especialidades .flex{
@@ -398,7 +397,7 @@ section.topo-do-site.flex{
 }
 
 main .topo-do-site{
-    padding: 20px 5%;
+    padding: 60px 5%;
 }
 
 .topo-do-site h1{
