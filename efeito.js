@@ -25,14 +25,14 @@ revelar.reveal('.titulo', {
 revelar.reveal('.efeito-esp1', {
     duration: 2000,
     distance: '90px',
-    delay:1500
+    delay:400
 })
 
 
 revelar.reveal('.efeito-esp2', {
     duration: 2000,
     distance: '90px',
-    delay:2000 
+    delay:550 
 })
 
 //sobre

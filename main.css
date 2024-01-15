@@ -188,8 +188,8 @@ section.topo-do-site.flex{
 .topo-do-site .txt-topo-site p{
     color: white;
     font-size: 1rem;
-    margin: 5px 0;
-    line-height: 0.9rem;
+    margin: 3px 0;
+    line-height: 1.3rem;
 }
 
 .topo-do-site .img-topo-site img{
@@ -256,8 +256,8 @@ section.sobre .flex{
 }
 
 .sobre .img-sobre img{
-    width: 300px;
-    height: 500px;
+    width: 150px;
+    height: 200px;
     border-radius: 20px;
 }
 
@@ -277,8 +277,10 @@ h3 span{
 }
 
 .sobre .txt-sobre p{
+    font-size: 22px;
     margin: 20px 0;
     text-align: justify;
+    font-weight: lighter;
 }
 
 .btn-social button{
@@ -404,7 +406,8 @@ main .topo-do-site{
 }
 
 .topo-do-site h1{
-    font-size: 30px;
+    font-size: 40px;
+    margin: 15px 0;
 }
 
 section .topo-do-site .especialidades{
