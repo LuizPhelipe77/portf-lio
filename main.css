@@ -278,10 +278,9 @@ h3 span{
 
 .sobre .txt-sobre p{
     font-size: 18px;
-    margin: 20px 0;
-    text-align: justify;    
+    margin: 20px 0;    
     font-weight:normal ;
-    letter-spacing: -1.2px;
+    letter-spacing: 1px;
     word-spacing: 1px;
 }
 
